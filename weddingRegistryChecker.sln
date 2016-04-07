@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weddingRegistryChecker", "weddingRegistryChecker\weddingRegistryChecker.csproj", "{F0F97B90-17A0-468C-8515-849BDE449D98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{F84412F7-1BC0-4973-B555-952A25CABB1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{5BC30A0C-D443-4023-BAAC-7F5F619EBE03}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{F9409F4F-D5D0-4FE5-B5C8-51B96FEDC037}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\weddingRegistryChecker.json = PublishScripts\Templates\weddingRegistryChecker.json
+		PublishScripts\Templates\weddingRegistryChecker.param.dev.json = PublishScripts\Templates\weddingRegistryChecker.param.dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3136401C-A397-4D51-8900-A72EE55BE94E}"
+	ProjectSection(SolutionItems) = preProject
+		weddingRegistryChecker\phantomjs2.exe = weddingRegistryChecker\phantomjs2.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0F97B90-17A0-468C-8515-849BDE449D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F97B90-17A0-468C-8515-849BDE449D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F97B90-17A0-468C-8515-849BDE449D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F97B90-17A0-468C-8515-849BDE449D98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BC30A0C-D443-4023-BAAC-7F5F619EBE03} = {F84412F7-1BC0-4973-B555-952A25CABB1B}
+		{F9409F4F-D5D0-4FE5-B5C8-51B96FEDC037} = {F84412F7-1BC0-4973-B555-952A25CABB1B}
+	EndGlobalSection
+EndGlobal

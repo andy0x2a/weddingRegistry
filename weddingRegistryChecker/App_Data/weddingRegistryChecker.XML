@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>weddingRegistryChecker</name>
+    </assembly>
+    <members>
+        <member name="T:weddingRegistryChecker.Controllers.HomeController">
+            <summary>
+            Home Controller
+            </summary>
+        </member>
+        <member name="M:weddingRegistryChecker.Controllers.HomeController.Index">
+            <summary>
+            Home controller
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:weddingRegistryChecker.Controllers.TotalController">
+            <summary>
+            The main controller
+            </summary>
+        </member>
+        <member name="M:weddingRegistryChecker.Controllers.TotalController.storeTotal(System.Int32)">
+            <summary>
+            stores the total
+            </summary>
+            <param name="total"> the total</param>
+               /// 
+        </member>
+        <member name="M:weddingRegistryChecker.Controllers.TotalController.getTotal">
+            <summary>
+            gets the total
+            </summary>
+            <returns>the total</returns>
+               /// 
+        </member>
+        <member name="T:weddingRegistryChecker.Controllers.ResponseObj">
+            <summary>
+            The response object
+            </summary>
+        </member>
+        <member name="P:weddingRegistryChecker.Controllers.ResponseObj.fullyPurchased">
+            <summary>
+            Fully purchased count
+            </summary>
+        </member>
+        <member name="P:weddingRegistryChecker.Controllers.ResponseObj.remaining">
+            <summary>
+            Remaining count
+            </summary>
+        </member>
+        <member name="P:weddingRegistryChecker.Controllers.ResponseObj.total">
+            <summary>
+            Total count
+            </summary>
+        </member>
+        <member name="P:weddingRegistryChecker.Controllers.ResponseObj.shouldEmail">
+            <summary>
+            should Email
+            </summary>
+        </member>
+        <member name="T:weddingRegistryChecker.Controllers.MainController">
+            <summary>
+            The main controller
+            </summary>
+        </member>
+        <member name="M:weddingRegistryChecker.Controllers.MainController.reset">
+            <summary>
+            Resets everything
+            </summary>
+        </member>
+        <member name="M:weddingRegistryChecker.Controllers.MainController.GetStuff">
+            <summary>
+            Gets the count of gifts bought for the registry
+            </summary>
+            <returns></returns>
+            
+        </member>
+    </members>
+</doc>
